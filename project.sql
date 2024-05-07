@@ -1,0 +1,78 @@
+CREATE TABLE `sports` (
+  `Name` text(50) NOT NULL,
+  `Sport` text(50) NOT NULL,
+  `Year` varchar(10) NOT NULL,
+  `Venue` varchar(50) NOT NULL,
+  `Position_Secured` varchar(50) NOT NULL
+
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `admin`
+--
+
+INSERT INTO `sports` (`Name`, `Sport`, `Year`, `Venue`, `Position_Secured`)
+VALUES
+('Rahul Verma', 'Football', '1st year', 'Rajiv Gandhi College of Engineering and Research', '1st'),
+('Sanjay Singh', 'Football', '2nd year', 'Laxminarayan Institute of Technology', '2nd'),
+('Deepak Gupta', 'Football', '3rd year', 'Shri Ramdeobaba College of Engineering and Management', '3rd'),
+('Vinod Singh', 'Football', '2nd year', 'Laxminarayan Institute of Technology', '4th'),
+('Prachi Patil', 'Football', '1st year', 'Priyadarshini Bhagwati College of Engineering', '5th'),
+('Sourabh Singh', 'Football', '3rd year', 'Yeshwantrao Chavan College of Engineering', '6th'),
+('Harshad Patil', 'Football', '1st year', 'Rajiv Gandhi College of Engineering and Research', '7th'),
+('Rahul Sharma', 'Football', '3rd year', 'Feroz Shah Kotla Ground', '1st'),
+('Aditi Singh', 'Football', '2nd year', 'Thyagaraj Sports Complex', '4th'),
+('Manoj Kumar', 'Football', '1st year', 'Jawaharlal Nehru Stadium', '3rd'),
+('Divya Singh', 'Football', '4th year', 'Ambedkar Stadium', '6th'),
+('Rajat Gupta', 'Football', '3rd year', 'Netaji Subhash Sports Complex', '6th'),
+('Sarvesh Goyal', 'Football', '1st year', 'Yeshwantrao Chavan College of Engineering', '1st'),
+('Pratiksha Shukla', 'Football', '2nd year', 'Central India College of Engineering and Technology', '1st'),
+('Shivani Bajaj', 'Football', '2nd year', 'Kavikulguru Institute of Technology and Science', '1st'),
+('Nikhil Suryawanshi', 'Football', '3rd year', 'Rashtrasant Tukadoji Maharaj Nagpur University', '1st'),
+('Swati Pande', 'Football', '1st year', 'Vishveshwarya National Institute of Technology', '5th'),
+('Varun Kumar', 'Football', '2nd year', 'Lokmanya Tilak Jankalyan Shikshan Sanstha''s Priyadarshini Institute of Engineering and Technology', '5th'),
+('Shraddha Kulkarni', 'Football', '3rd year', 'Yashwantrao Chavan Law College', '5th'),
+('Abhijeet Patil', 'Football', '1st year', 'St. Vincent Pallotti College of Engineering and Technology', '5th'),
+('Arjun Gupta', 'Basketball', '2nd year','St. Marys College Ground', '1st'),    
+('Akanksha Singh', 'Basketball', '3rd year','Sri Aurobindo College Ground', '1st'),    
+('Ankit Patel', 'Basketball', '1st year','Ramjas College Ground', '1st'),    
+('Divya Sharma', 'Basketball', '4th year','Hindu College Ground', '1st'),    
+('Amit Kumar', 'Basketball', '2nd year','Kirori Mal College Ground', '1st'),    
+('Kriti Yadav', 'Basketball', '3rd year','Delhi University Sports Complex', '4th'),    
+('Abhishek Gupta', 'Basketball', '1st year','Jesus and Mary College Ground', '4th'),    
+('Swati Verma', 'Basketball', '4th year','S.G.T.B. Khalsa College Ground', '4th'),    
+('Vikram Singh', 'Basketball', '2nd year','Lady Shri Ram College Ground', '4th'),    
+('Jaspreet Kaur', 'Basketball', '3rd year','Miranda House College Ground', '4th'),    
+('Nishant Sharma', 'Basketball', '4th year','Kamala Nehru College Ground', '2nd'),    
+('Akshay Singh', 'Basketball', '2nd year','Bharati College Ground', '2nd'),    
+('Pooja Yadav', 'Basketball', '3rd year','Indraprastha College Ground', '2nd'),    
+('Aditya Mishra', 'Basketball', '1st year','Shyam Lal College Ground', '2nd'),    
+('Nidhi Gupta', 'Basketball', '4th year','Amity University Sports Complex', '2nd'),    
+('Rohit Sharma', 'Basketball', '2nd year','Gargi College Ground', '5th'),    
+('Priya Singh', 'Basketball', '3rd year','Mata Sundri College Ground', '5th'),    
+('Avinash Verma', 'Basketball', '1st year','Maharaja Agrasen College Ground', '5th'),    
+('Neha Gupta', 'Basketball', '4th year','Delhi Technological University Sports Complex', '5th'),    
+('Vikas Kumar', 'Basketball', '2nd year','Sri Venkateswara College Ground', '5th'),
+('Rahul Sharma', 'Cricket', '3rd year', 'Feroz Shah Kotla Ground', '1st'),  
+('Aditi Singh', 'Cricket', '2nd year', 'Thyagaraj Sports Complex', '4th'),   
+('Manoj Kumar', 'Cricket', '1st year', 'Jawaharlal Nehru Stadium', '3rd'),   
+('Divya Singh', 'Cricket', '4th year', 'Ambedkar Stadium', '6th'),  
+('Rajat Gupta', 'Cricket', '3rd year', 'Netaji Subhash Sports Complex', '6th'), 
+('Sarika Sharma', 'Cricket', '2nd year', 'Rajiv Gandhi Sports Complex', '7th'), 
+('Mohit Kumar', 'Cricket', '1st year', 'Lal Bahadur Shastri Stadium', '10th'),  
+('Sanjana Singh', 'Cricket', '4th year', 'Siri Fort Sports Complex', '2nd'),  
+('Ajay Gupta', 'Cricket', '3rd year', 'Yamuna Sports Complex', '3rd'),  
+('Sakshi Sharma', 'Cricket', '2nd year', 'Major Dhyan Chand National Stadium', '8th'),   
+('Mukesh Yadav', 'Cricket', '3rd year', 'Palika Stadium', '1st'),   
+('Mukesh Yadav', 'Cricket', '3rd year', 'Palika Stadium', '3rd'),  
+('Amit Kumar', 'Cricket', '1st year', 'Thyagaraj Sports Complex', '5th'),  
+('Shweta Singh', 'Cricket', '4th year', 'Lal Bahadur Shastri Stadium', '4th'),  
+('Vikram Gupta', 'Cricket', '2nd year', 'Siri Fort Sports Complex', '2nd'),   
+('Prabhat Singh', 'Cricket', '3rd year', 'Feroz Shah Kotla Ground', '5th'),  
+('Shikha Sharma', 'Cricket', '1st year', 'Ambedkar Stadium', '3rd'),   
+('Sumit Kumar', 'Cricket', '4th year', 'Netaji Subhash Sports Complex', '6th'),  
+('Alok Gupta', 'Cricket', '2nd year', 'Jawaharlal Nehru Stadium', '4th'),   
+('Riya Singh', 'Cricket', '3rd year', 'Rajiv Gandhi Sports Complex', '7th'),
+('Deepak Kumar', 'Cricket', '1st year', 'Major Dhyan Chand National Stadium', '8th');
+
+
